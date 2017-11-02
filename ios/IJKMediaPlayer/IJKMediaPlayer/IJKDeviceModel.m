@@ -92,6 +92,17 @@ inline static void IJKDeviceRegister(NSMutableDictionary *dict,
         IJKDeviceRegister(dict, @"iPhone8,2",   @"iPhone 6S Plus",  kIJKDeviceRank_AppleA9Class);
         IJKDeviceRegister(dict, @"iPhone8,4",   @"iPhone SE",       kIJKDeviceRank_AppleA9Class);
 
+        IJKDeviceRegister(dict, @"iPhone9,1",   @"iPhone 7",        kIJKDeviceRank_LatestUnknown);
+        IJKDeviceRegister(dict, @"iPhone9,2",   @"iPhone 7 Plus",   kIJKDeviceRank_LatestUnknown);
+        IJKDeviceRegister(dict, @"iPhone9,3",   @"iPhone 7",        kIJKDeviceRank_LatestUnknown);
+        IJKDeviceRegister(dict, @"iPhone9,4",   @"iPhone 7 Plus",   kIJKDeviceRank_LatestUnknown);
+
+        IJKDeviceRegister(dict, @"iPhone10,1",  @"iPhone 8",        kIJKDeviceRank_LatestUnknown);
+        IJKDeviceRegister(dict, @"iPhone10,2",  @"iPhone 8 Plus",   kIJKDeviceRank_LatestUnknown);
+        IJKDeviceRegister(dict, @"iPhone10,3",  @"iPhone X",        kIJKDeviceRank_LatestUnknown);
+        IJKDeviceRegister(dict, @"iPhone10,4",  @"iPhone 8",        kIJKDeviceRank_LatestUnknown);
+        IJKDeviceRegister(dict, @"iPhone10,5",  @"iPhone 8 Plus",   kIJKDeviceRank_LatestUnknown);
+        IJKDeviceRegister(dict, @"iPhone10,6",  @"iPhone X",        kIJKDeviceRank_LatestUnknown);
 
         // iPod Touch
         IJKDeviceRegister(dict, @"iPod1,1",     @"iPod Touch",      kIJKDeviceRank_Baseline);
